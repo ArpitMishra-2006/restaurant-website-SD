@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #00014d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+section {
+    background-color: rgb(253, 253, 253);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #b22222;
+}
+
+.menu ul {
+    padding-left: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: skyblue;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+}
+.nav-links li {
+    margin: 5px;
+}
+.nav-links li a {
+    display: inline-block;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: black;
+    background-color: skyblue;
+    border-radius: 4px;
+}
+.gallery-images {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+}
+
+button {
+    background-color: #8b0000;
+    color: white;
+    border: none;
+}
+.navbar {
+    justify-content: center;
+}
+.food-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.food-card {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+.food-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.hero-text {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 15px;
+}
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.header-img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    margin: 5px 0;
+    color: #8b0000;
+}
+
+.header p {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.header p {
+    color: #333;
+}
+.header-img {
+    display: block;
+}
+.header p {
+    font-size: 18px;
+}
+.header-img {
+    display: block;
+    margin: 0 auto;
+}
+.food-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.reservation-form {
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+
+.reservation-form h2 {
+    margin-left: 15px;
+}
+
+.reservation-form form {
+    max-width: 400px;
+    margin-left: 15px;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.reservation-form input,
+.reservation-form select,
+.reservation-form button {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+@media (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+}
